@@ -40,7 +40,7 @@ class CatalogItem extends StatelessWidget {
                   "Rs.${catalog.price}"
                       .text
                       .bold
-                      .color(Color.fromARGB(255, 155, 28, 19))
+                      .color(const Color.fromARGB(255, 155, 28, 19))
                       .size(10.0)
                       .make(),
                   ElevatedButton(
