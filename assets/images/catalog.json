@@ -1,0 +1,98 @@
+{
+    "Products":[
+    {
+        "id":1,
+        "name":"Apple MacBook Air",
+        "desc": "Apple Macbook Air M1",
+        "price":82000,
+        "color":"#33505a",
+        "image":
+            "https://www.gravis.de/medias/sys_master/images/images/h42/h69/10812603826206/144126-1-product-3x.jpg"
+    },
+
+    {
+        "id": 2,
+        "name":"Samsung Galaxy S23",
+        "desc":"Samsung Galaxy S23 Ultra 5G (Phantom Black, 12GB, 256GB Storage)",
+        "price":124000,
+        "color":"#00ac51",
+        "image":"https://m.media-amazon.com/images/I/61imYpK33qL._AC_UY327_FMwebp_QL65_.jpg"
+
+    },
+    {
+        "id":3,
+        "name":"Apple AirPods ",
+        "desc": "Apple AirPods(2nd Generation)",
+        "price":12000,
+        "color":"#e0bfae",
+        "image":
+            "https://m.media-amazon.com/images/I/7120GgUKj3L._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":4,
+        "name":"OnePlus",
+        "desc": "OnePlus Nord 3(5G) ",
+        "price":33000,
+        "color":"#544ee4",
+        "image":
+            "https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202306/26/sxf2UOm796Tl74aE.png?x-amz-process=image/format,webp/quality,Q_80"
+    },
+    {
+        "id":5,
+        "name":"Redmi Earbuds ",
+        "desc": "Redmi Earbuds S Bluetooth Headset ",
+        "price":1500,
+        "color":"#47515a",
+        "image":
+            "https://d2xamzlzrdbdbn.cloudfront.net/products/7a844737-7181-4098-a511-d72bbbef3528.jpg"
+    },
+    {
+        "id":6,
+        "name":"boAt Power Bank",
+        "desc": "boAt 20000 mAh Power Bank",
+        "price":1500,
+        "color":"#c6942e",
+        "image":
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/power-bank/x/e/v/-original-imagrzjfvsnyhurr.jpeg?q=70"
+    },
+    {
+        "id":7,
+        "name":"HP 15s",
+        "desc": "HP 15s (2023) Intel Core i3 12th Gen",
+        "price":43000,
+        "color":"#33505a",
+        "image":
+            "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/d/l/q/-original-imagphhh4syr7qrg.jpeg?q=70"
+    },
+    {
+        "id":8,
+        "name":"boAt Airdopes",
+        "desc": "boAt Airdopes 161 Pro with 50 HRS Playback",
+        "price":1300,
+        "color":"#FA8072",
+        "image":
+            "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/d/v/r/-original-imagrg5gzxnghhvh.jpeg?q=70"
+
+    },
+    {
+        "id":9,
+        "name":"Amazon Eco Dot",
+        "desc": "Amazon Eco Dot(5th Generation)",
+        "price":5000,
+        "color":"#FFA07A",
+        "image":
+            "https://m.media-amazon.com/images/I/71cV-ickxOL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":10,
+        "name":"Apple iPad",
+        "desc": "Apple 2022 11-inch iPad Pro (Wi-Fi + Cellular, 2TB)",
+        "price":119000,
+        "color":"#33505a",
+        "image":
+            "https://m.media-amazon.com/images/I/81rxOSprYqL._AC_UY327_FMwebp_QL65_.jpg"
+    }
+    
+]
+    
+}
