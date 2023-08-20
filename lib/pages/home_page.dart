@@ -1,14 +1,17 @@
 import 'dart:convert';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_catalog/Models/catalog.dart';
+import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/Home%20Widgets/catalog_header.dart';
 import 'package:flutter_catalog/widgets/Home%20Widgets/catalog_list.dart';
 // import 'package:flutter_catalog/widgets/drawer.dart';
 // import 'package:flutter_catalog/widgets/item_widget.dart';
 import 'package:flutter_catalog/widgets/theme.dart';
 import 'package:velocity_x/velocity_x.dart';
+import "cart_page.dart";
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
@@ -55,18 +58,24 @@ class _HomepageState extends State<Homepage> {
     // final dummyList = List.generate(20, (index) => CatalogModel.items[0]);
     return Scaffold(
       backgroundColor: myTheme.lightpurple,
+      floatingActionButton: Container(
+        padding: EdgeInsets.only(bottom: 50.0),
+        child: FloatingActionButton(
+            onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
+            child: const Icon(CupertinoIcons.cart)),
+      ),
       body: SafeArea(
           child: Container(
-              padding: Vx.m12,
+              padding: Vx.mH16,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  CatalogHeader(),
+                  const CatalogHeader(),
                   if (CatalogModel.items != null &&
                       CatalogModel.items.isNotEmpty)
-                    CatalogList().expand()
+                    const CatalogList().expand()
                   else
-                    CircularProgressIndicator().centered().expand(),
+                    const CircularProgressIndicator().centered().expand(),
                 ],
               ))),
     );

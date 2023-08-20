@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_catalog/Models/catalog.dart';
 import 'package:flutter_catalog/pages/home_page.dart';
 import 'package:flutter_catalog/widgets/Home%20Widgets/catalog_image.dart';
+import 'package:flutter_catalog/widgets/theme.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class CatalogItem extends StatelessWidget {
@@ -36,7 +37,12 @@ class CatalogItem extends StatelessWidget {
                 alignment: MainAxisAlignment.spaceBetween,
                 buttonPadding: EdgeInsets.zero,
                 children: [
-                  "Rs${catalog.price}".text.italic.bold.size(10.0).make(),
+                  "Rs.${catalog.price}"
+                      .text
+                      .bold
+                      .color(Color.fromARGB(255, 155, 28, 19))
+                      .size(10.0)
+                      .make(),
                   ElevatedButton(
                     onPressed: () {},
                     style: ButtonStyle(
@@ -46,8 +52,8 @@ class CatalogItem extends StatelessWidget {
                         shape: MaterialStateProperty.all(
                           const StadiumBorder(),
                         )),
-                    child: "Buy".text.make(),
-                  )
+                    child: "Add to Cart".text.xs.make(),
+                  ),
                 ],
               ).pOnly(right: 8.0, top: 0)
             ],

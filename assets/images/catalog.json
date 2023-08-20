@@ -7,7 +7,10 @@
         "price":82000,
         "color":"#33505a",
         "image":
-            "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP825/macbookair.png"
+            "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP825/macbookair.png",
+        
+        "about":"33.74 cm / 13.3-inch (diagonal) LED-backlit display with IPS technology; 2560x1600 native resolution at 227 pixels per inch with support for millions of colours.Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing and Multi-Touch gestures"
+        
     },
 
     {
@@ -16,7 +19,8 @@
         "desc":"S23 Ultra 5G",
         "price":124000,
         "color":"#00ac51",
-        "image":"https://www.pngall.com/wp-content/uploads/13/Galaxy-S23-Ultra-PNG-HD-Image.png"
+        "image":"https://www.pngall.com/wp-content/uploads/13/Galaxy-S23-Ultra-PNG-HD-Image.png",
+        "about": "The Samsung Galaxy S23 Ultra is shaking up the smartphone world with its ingenious camera capabilities, built-in productivity tools (including the ultra-handy S Pen), and the unbeatable speeds of Snapdragon® 8 Gen 2 for Galaxy. Samsung’s latest premium flagship phone offers something for everyone — from power users and photographers to gamers and working professionals."
 
     },
     {
@@ -26,7 +30,9 @@
         "price":12000,
         "color":"#e0bfae",
         "image":
-            "https://www.freepnglogos.com/uploads/airpods-png/airpods-pro-airpods-what-the-difference-and-10.png"
+            "https://www.freepnglogos.com/uploads/airpods-png/airpods-pro-airpods-what-the-difference-and-10.png",
+
+        "about":"Dual beam-forming microphones,Dual optical sensors,Motion-detecting acceleromete,Speech-detecting accelerometer."
     },
     {
         "id":4,
@@ -35,7 +41,9 @@
         "price":33000,
         "color":"#544ee4",
         "image":
-            "https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202306/26/sxf2UOm796Tl74aE.png?x-amz-process=image/format,webp/quality,Q_80"
+            "https://image01-in.oneplus.net/india-oneplus-statics-file/epb/202306/26/sxf2UOm796Tl74aE.png?x-amz-process=image/format,webp/quality,Q_80",
+
+        "about":"OnePlus Nord 3 5G features a simple, understated design that looks like it belongs on something way more expensive. Tempest Gray has a tempestuous 2.8D silk glass cover with a frosted texture that is anti-glare and anti-fingerprint, while Misty Green comes with a subtle glossy celadon glass finish."
     },
     {
         "id":5,
@@ -44,7 +52,8 @@
         "price":1500,
         "color":"#47515a",
         "image":
-            "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Redmi_Earbuds_S.png"
+            "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Redmi_Earbuds_S.png",
+        "about":"The Redmi Earbuds S comes with the gaming mode which reduces the latency to 122ms and gives you pro performance for your pro gaming. Working out at home? No worries, the Redmi Earbuds S has got you covered with its IPX4 sweat and splash-proof protection."
     },
     {
         "id":6,
@@ -53,7 +62,9 @@
         "price":1500,
         "color":"#c6942e",
         "image":
-            "https://www.boat-lifestyle.com/cdn/shop/files/ES500-FI_Black01__4_-removebg-preview_300x.png?v=1690198681"
+            "https://www.boat-lifestyle.com/cdn/shop/files/ES500-FI_Black01__4_-removebg-preview_300x.png?v=1690198681",
+        "about":"Energyshroom PB20 is a high capacity, 20000 mAh portable charging device that utilizes a Li-polymer battery and is built for a safe, fast, and efficient user experience. It charges your beloved devices such as cell phones, tablets, MP3 players, digital cameras, etc."
+            
     },
     {
         "id":7,
@@ -62,7 +73,8 @@
         "price":43000,
         "color":"#33505a",
         "image":
-            "https://exceldisc.com/_next/image?url=https%3A%2F%2Fapiv2.exceldisc.com%2Fmedia%2F17537%2F29a801df-6559-4ebb-ae53-5b56bb5fedf2.png&w=3840&q=75"
+            "https://exceldisc.com/_next/image?url=https%3A%2F%2Fapiv2.exceldisc.com%2Fmedia%2F17537%2F29a801df-6559-4ebb-ae53-5b56bb5fedf2.png&w=3840&q=75",
+        "about":"HP Laptop 15s, 12th Gen Intel Core i3-1215U, 15.6-inch (39.6 cm), FHD, 8GB DDR4, 512GB SSD, Intel UHD Graphics, Backlit KB, Thin & Light, Dual Speakers (Win 11, MSO 2021, Silver, 1.69 kg), fq5007TU. Amazon's Choice highlights highly rated, well-priced products available to ship immediately."
     },
     {
         "id":8,
@@ -71,7 +83,9 @@
         "price":1300,
         "color":"#FA8072",
         "image":
-            "https://www.boat-lifestyle.com/cdn/shop/files/A161_Pro.1342-removebg-preview.png?v=1689916497"
+            "https://www.boat-lifestyle.com/cdn/shop/files/A161_Pro.1342-removebg-preview.png?v=1689916497",
+        "about":"boAt Airdopes 161 Pro offers ASAP™ Charge, which gives an impressive 150 minutes of playtime in just 10 minutes of charging. Say adios to the low battery warning & embrace the freedom with 50 hours of playtime."
+
 
     },
     {
@@ -81,7 +95,8 @@
         "price":4000,
         "color":"#FFA07A",
         "image":
-            "https://www.boat-lifestyle.com/cdn/shop/products/1200f_main3.png?v=1673002201"
+            "https://www.boat-lifestyle.com/cdn/shop/products/1200f_main3.png?v=1673002201",
+        "about":"t's powered by 14W boAt Signature Sound with Passive Bass Radiator that's built to add spark to all your plans. The RGB LED lights are perfect to set the perfect vibe for a casual chilling session with your best buds."
     },
     {
         "id":10,
@@ -90,7 +105,8 @@
         "price":119000,
         "color":"#33505a",
         "image":
-            "https://assets.stickpng.com/images/61d4a70f8b51e20004664d4d.png"
+            "https://assets.stickpng.com/images/61d4a70f8b51e20004664d4d.png",
+        "about": "The powerful, feature-rich, and portable Apple iPad Pro 2020 (4th Generation) is a cutting-edge device for everyday computing, creative exploration, and for immersive entertainment. This high-end tablet features an all-screen Liquid Retina Display for immersive visuals, the A12Z Bionic Chip for seamless computing, and up to 10-hour Battery Life for uninterrupted work, creativity, or entertainment."
     }
     
 ]

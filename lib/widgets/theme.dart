@@ -10,7 +10,7 @@ class myTheme {
       appBarTheme: const AppBarTheme(
         color: Colors.deepPurple,
         elevation: 0.0,
-        iconTheme: IconThemeData(color: Colors.yellowAccent),
+        iconTheme: IconThemeData(color: Colors.deepPurple),
       ));
 
   static ThemeData darkTheme(BuildContext) => ThemeData(
