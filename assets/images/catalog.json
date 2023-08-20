@@ -7,16 +7,16 @@
         "price":82000,
         "color":"#33505a",
         "image":
-            "https://www.gravis.de/medias/sys_master/images/images/h42/h69/10812603826206/144126-1-product-3x.jpg"
+            "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP825/macbookair.png"
     },
 
     {
         "id": 2,
         "name":"Samsung Galaxy S23",
-        "desc":"Samsung Galaxy S23 Ultra 5G (Phantom Black, 12GB, 256GB Storage)",
+        "desc":"S23 Ultra 5G",
         "price":124000,
         "color":"#00ac51",
-        "image":"https://m.media-amazon.com/images/I/61imYpK33qL._AC_UY327_FMwebp_QL65_.jpg"
+        "image":"https://www.pngall.com/wp-content/uploads/13/Galaxy-S23-Ultra-PNG-HD-Image.png"
 
     },
     {
@@ -26,7 +26,7 @@
         "price":12000,
         "color":"#e0bfae",
         "image":
-            "https://m.media-amazon.com/images/I/7120GgUKj3L._AC_UY327_FMwebp_QL65_.jpg"
+            "https://www.freepnglogos.com/uploads/airpods-png/airpods-pro-airpods-what-the-difference-and-10.png"
     },
     {
         "id":4,
@@ -44,7 +44,7 @@
         "price":1500,
         "color":"#47515a",
         "image":
-            "https://d2xamzlzrdbdbn.cloudfront.net/products/7a844737-7181-4098-a511-d72bbbef3528.jpg"
+            "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Redmi_Earbuds_S.png"
     },
     {
         "id":6,
@@ -53,7 +53,7 @@
         "price":1500,
         "color":"#c6942e",
         "image":
-            "https://rukminim2.flixcart.com/image/612/612/xif0q/power-bank/x/e/v/-original-imagrzjfvsnyhurr.jpeg?q=70"
+            "https://www.boat-lifestyle.com/cdn/shop/files/ES500-FI_Black01__4_-removebg-preview_300x.png?v=1690198681"
     },
     {
         "id":7,
@@ -62,35 +62,35 @@
         "price":43000,
         "color":"#33505a",
         "image":
-            "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/d/l/q/-original-imagphhh4syr7qrg.jpeg?q=70"
+            "https://exceldisc.com/_next/image?url=https%3A%2F%2Fapiv2.exceldisc.com%2Fmedia%2F17537%2F29a801df-6559-4ebb-ae53-5b56bb5fedf2.png&w=3840&q=75"
     },
     {
         "id":8,
         "name":"boAt Airdopes",
-        "desc": "boAt Airdopes 161 Pro with 50 HRS Playback",
+        "desc": "boAt Airdopes 161 Pro",
         "price":1300,
         "color":"#FA8072",
         "image":
-            "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/d/v/r/-original-imagrg5gzxnghhvh.jpeg?q=70"
+            "https://www.boat-lifestyle.com/cdn/shop/files/A161_Pro.1342-removebg-preview.png?v=1689916497"
 
     },
     {
         "id":9,
-        "name":"Amazon Eco Dot",
-        "desc": "Amazon Eco Dot(5th Generation)",
-        "price":5000,
+        "name":"boAt Speaker",
+        "desc": "Stone 1200F,14W boAt Signature",
+        "price":4000,
         "color":"#FFA07A",
         "image":
-            "https://m.media-amazon.com/images/I/71cV-ickxOL._AC_UY327_FMwebp_QL65_.jpg"
+            "https://www.boat-lifestyle.com/cdn/shop/products/1200f_main3.png?v=1673002201"
     },
     {
         "id":10,
         "name":"Apple iPad",
-        "desc": "Apple 2022 11-inch iPad Pro (Wi-Fi + Cellular, 2TB)",
+        "desc": "Apple 2022 iPad Pro",
         "price":119000,
         "color":"#33505a",
         "image":
-            "https://m.media-amazon.com/images/I/81rxOSprYqL._AC_UY327_FMwebp_QL65_.jpg"
+            "https://assets.stickpng.com/images/61d4a70f8b51e20004664d4d.png"
     }
     
 ]
