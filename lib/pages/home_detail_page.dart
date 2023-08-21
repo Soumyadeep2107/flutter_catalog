@@ -13,9 +13,9 @@ class HomeDetail extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
       ),
-      backgroundColor: myTheme.lightpurple,
+      backgroundColor: context.theme.canvasColor,
       bottomNavigationBar: Container(
-        color: Colors.white,
+        color: context.theme.cardColor,
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: EdgeInsets.zero,
@@ -24,7 +24,8 @@ class HomeDetail extends StatelessWidget {
             ElevatedButton(
               onPressed: () {},
               style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(Colors.deepPurple),
+                  backgroundColor:
+                      MaterialStateProperty.all(context.theme.highlightColor),
                   shape: MaterialStateProperty.all(
                       StadiumBorder(side: BorderSide.none))),
               child: "Add to cart".text.make(),
@@ -33,36 +34,39 @@ class HomeDetail extends StatelessWidget {
         ).p16(),
       ),
       body: SafeArea(
+          bottom: false,
           child: Column(
-        children: [
-          Hero(
-            tag: Key(catalog.id.toString()),
-            child: Image.network(catalog.image),
-          ).h32(context),
-          Expanded(
-              child: VxArc(
-                  height: 30.0,
-                  child: Container(
-                    color: Colors.white,
-                    width: context.screenWidth,
-                    child: Column(children: [
-                      catalog.name.text.xl4
-                          .color(const Color.fromARGB(250, 0, 0, 0))
-                          .bold
-                          .make(),
-                      catalog.desc.text
-                          .textStyle(context.captionStyle)
-                          .xl
-                          .make(),
-                      10.heightBox,
-                      catalog.about.text.xs
-                          .textStyle(context.captionStyle)
-                          .make()
-                          .p16()
-                    ]).py64(),
-                  )))
-        ],
-      )),
+            children: [
+              Hero(
+                tag: Key(catalog.id.toString()),
+                child: Image.network(catalog.image),
+              ).h32(context),
+              Expanded(
+                  child: VxArc(
+                      arcType: VxArcType.convey,
+                      edge: VxEdge.top,
+                      height: 30.0,
+                      child: Container(
+                        color: context.theme.cardColor,
+                        width: context.screenWidth,
+                        child: Column(children: [
+                          catalog.name.text.xl4
+                              .color(context.theme.hintColor)
+                              .bold
+                              .make(),
+                          catalog.desc.text
+                              .textStyle(context.captionStyle)
+                              .xl
+                              .make(),
+                          10.heightBox,
+                          catalog.about.text.xs
+                              .textStyle(context.captionStyle)
+                              .make()
+                              .p16()
+                        ]).py64(),
+                      )))
+            ],
+          )),
     );
   }
 }

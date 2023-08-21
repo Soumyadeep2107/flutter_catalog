@@ -7,6 +7,7 @@ import 'package:flutter_catalog/Models/catalog.dart';
 import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/Home%20Widgets/catalog_header.dart';
 import 'package:flutter_catalog/widgets/Home%20Widgets/catalog_list.dart';
+import 'package:flutter_catalog/widgets/drawer.dart';
 // import 'package:flutter_catalog/widgets/drawer.dart';
 // import 'package:flutter_catalog/widgets/item_widget.dart';
 import 'package:flutter_catalog/widgets/theme.dart';
@@ -57,12 +58,16 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     // final dummyList = List.generate(20, (index) => CatalogModel.items[0]);
     return Scaffold(
-      backgroundColor: myTheme.lightpurple,
+      backgroundColor: context.canvasColor,
       floatingActionButton: Container(
-        padding: EdgeInsets.only(bottom: 50.0),
+        padding: const EdgeInsets.only(bottom: 50.0),
         child: FloatingActionButton(
             onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
-            child: const Icon(CupertinoIcons.cart)),
+            backgroundColor: context.theme.highlightColor,
+            child: const Icon(
+              CupertinoIcons.cart,
+              color: Colors.amber,
+            )),
       ),
       body: SafeArea(
           child: Container(

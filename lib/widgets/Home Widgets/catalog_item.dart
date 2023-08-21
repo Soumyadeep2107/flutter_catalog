@@ -26,11 +26,12 @@ class CatalogItem extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              catalog.name.text.lg.bold.make(),
+              catalog.name.text.lg.bold.color(context.theme.hintColor).make(),
               catalog.desc.text
                   .fontWeight(FontWeight.bold)
                   .xs
                   .textStyle(context.captionStyle)
+                  .color(context.theme.hintColor)
                   .make(),
               10.heightBox,
               ButtonBar(
@@ -47,7 +48,7 @@ class CatalogItem extends StatelessWidget {
                     onPressed: () {},
                     style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all(
-                          Colors.deepPurple,
+                          context.theme.highlightColor,
                         ),
                         shape: MaterialStateProperty.all(
                           const StadiumBorder(),
@@ -60,6 +61,6 @@ class CatalogItem extends StatelessWidget {
           ))
         ],
       ),
-    )).white.roundedSM.square(110).make().py16();
+    )).color(context.cardColor).roundedSM.square(110).make().py16();
   }
 }

@@ -2,6 +2,7 @@
 
 import "package:flutter/material.dart";
 import "package:flutter_catalog/utils/routes.dart";
+import "package:velocity_x/velocity_x.dart";
 
 // stateless widget are those widgets who are not not causing changes in the current screen of the application, and where as if want any change in screen through user input then we can use the stateful widgets
 
@@ -38,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.white,
+      color: context.theme.canvasColor,
       child: Form(
         key: _formKey,
         child: Column(
@@ -103,7 +104,7 @@ class _LoginPageState extends State<LoginPage> {
 
                     Material(
                       // since we have already given the decoration to the material so we don't need to do it in the container, otherwise the splash colour won't be visible
-                      color: Colors.deepPurple,
+                      color: context.theme.highlightColor,
                       borderRadius:
                           BorderRadius.circular(changebutton ? 50 : 15),
                       child: InkWell(
