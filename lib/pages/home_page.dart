@@ -77,7 +77,7 @@ class _HomepageState extends State<Homepage> {
                 children: [
                   const CatalogHeader(),
                   if (CatalogModel.items != null &&
-                      CatalogModel.items.isNotEmpty)
+                      CatalogModel.items!.isNotEmpty)
                     const CatalogList().expand()
                   else
                     const CircularProgressIndicator().centered().expand(),

@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
       initialRoute:
           "/", //since by default the home route is acessed we change the default setting by giving the default thing as "/home"
       routes: {
-        "/": (context) => LoginPage(), //since "/" tells the home route only.
+        "/": (context) => Homepage(), //since "/" tells the home route only.
         // using this made class from route.dart help us route through other files so that we don't need to specify the route in the home route "/".
         MyRoutes.loginRoute: (context) => LoginPage(),
         MyRoutes.homeRoutes: (context) => Homepage(),
